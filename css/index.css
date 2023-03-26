@@ -1,0 +1,49 @@
+/* Universal Selector */
+*{
+    box-sizing: border-box;
+}
+  /* Main heading of Coding Ninja */
+h1{
+    text-align: center;
+    margin:10px;
+}
+   /* For Complete div  */
+.nav {
+    background-color: orange;
+}
+.heading h1{
+    font-size: 75px;
+}
+h2{
+    text-align: center;
+    margin:10px;
+    font-size: 35px;
+}
+.heading img,h1{
+    display: inline;
+    align-self: center;
+    margin-left: 10%;
+}
+.heading img{
+    background-color: black;
+    width:10%;
+}
+ /* Image Gallery Section */
+.imageGallery{
+    background-color: beige;
+}
+ /* Images */
+.images{
+   margin: 10px 50px;
+}
+.images img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(50%);
+    transition: ls;
+}
+  /* Transformation of Image on Hovering */
+.images img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+}
